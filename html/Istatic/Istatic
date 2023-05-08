@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="google-site-verification" content="3e1cNRYuUBDvzPJ9VerwCKlrqiCwBDo_3DefS4u__3o" />
+    <meta name="author" content="PLAYCODE" />
+    <meta name="robots" content="noodp, noydir, notranslate" />
+    <meta name="renderer" content="browser" />
+    <meta property="og:site_name" content="PLAYCODE.IO" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@playcode_io" />
+    <meta property="og:image" content="/lstatic/img/social/fb-static.png" />
+    <meta name="twitter:image" content="/lstatic/img/social/twitter-static.png" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/lstatic/img/favicons/favicon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/lstatic/img/favicons/favicon@2x.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/lstatic/img/favicons/192x192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/lstatic/img/favicons/apple-touch-icon.png" />
+
+    <meta name="msapplication-TileColor" content="#18222d" />
+    <meta name="theme-color" content="#18222d" />
+
+    <!-- start Google Analytics-->
+    <script>
+      window.ga =
+        window.ga ||
+        function () {
+          ;(ga.q = ga.q || []).push(arguments)
+        }
+      ga.l = +new Date()
+      ga('create', 'UA-48104508-4', 'auto')
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+
+    <link rel="canonical" href="https://playcode.io/typescript-playground" />
+
+    <title>Typescript Playground</title>
+    <meta
+      name="description"
+      content="Typescript Playground - write and run your typescript code online, see result in live view or in editor console. Share your
+            typescript."
+    />
+    <meta name="og:title" content="Typescript Playground" />
+    <meta
+      name="og:description"
+      content="Typescript Playground - write and run your typescript code online, see result in live view or in editor console. Share your
+            typescript."
+    />
+  <style type="text/css">.cursor-pointer{cursor:pointer}.d-none{display:none}.d-flex{display:-webkit-box;display:-ms-flexbox;display:flex}@media(min-width:768px){.d-sm-inline{display:inline}.d-sm-block{display:block}}.flex-wrap{-ms-flex-wrap:wrap;flex-wrap:wrap}.justify-content-center{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.justify-content-between{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.align-items-center{-webkit-box-align:center;-ms-flex-align:center;align-items:center}@media(min-width:768px){.flex-sm-row-reverse{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}}.w-100{width:100%}.min-w-0{min-width:0}.max-w-50{max-width:50px}.max-w-250{max-width:250px}.max-w-400{max-width:400px}.max-w-450{max-width:450px}.max-w-500{max-width:500px}.max-w-550{max-width:550px}.max-w-600{max-width:600px}.max-w-700{max-width:700px}.m-0{margin:0!important}.mt-0,.my-0{margin-top:0!important}.my-0{margin-bottom:0!important}.mt-2{margin-top:8px!important}.ml-2{margin-left:8px!important}.mt-3{margin-top:12px!important}.mr-3{margin-right:12px!important}.mb-3{margin-bottom:12px!important}.mt-4{margin-top:16px!important}.mr-4{margin-right:16px!important}.mb-4{margin-bottom:16px!important}.mr-5{margin-right:20px!important}.mt-6{margin-top:24px!important}.mt-7{margin-top:28px!important}.mt-8{margin-top:32px!important}.mb-8{margin-bottom:32px!important}.mt-10{margin-top:40px!important}.mb-10{margin-bottom:40px!important}.p-0{padding:0!important}.pt-0,.py-0{padding-top:0!important}.py-0{padding-bottom:0!important}.py-1{padding-top:4px!important;padding-bottom:4px!important}.px-2{padding-right:8px!important}.pb-2{padding-bottom:8px!important}.px-2{padding-left:8px!important}.px-4{padding-right:16px!important;padding-left:16px!important}.py-6{padding-top:24px!important;padding-bottom:24px!important}.py-8{padding-top:32px!important;padding-bottom:32px!important}.py-10{padding-top:40px!important;padding-bottom:40px!important}.pt-12{padding-top:48px!important}.pb-12{padding-bottom:48px!important}@media(min-width:768px){.mt-sm-0{margin-top:0!important}.mb-sm-0{margin-bottom:0!important}.mb-sm-10{margin-bottom:40px!important}}@media(min-width:992px){.mt-md-6{margin-top:24px!important}}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media(min-width:768px){.container{max-width:734px}}@media(min-width:992px){.container{max-width:944px}}@media(min-width:1200px){.container{max-width:1168px}}.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.col-3,.col-4,.col-24,.col-md-8,.col-md-24,.col-sm-2,.col-sm-3,.col-sm-8,.col-sm-10,.col-sm-12,.col-sm-14,.col-sm-24{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px}.col-3{-ms-flex:0 0 12.5%;flex:0 0 12.5%;max-width:12.5%}.col-3,.col-4{-webkit-box-flex:0}.col-4{-ms-flex:0 0 16.6666666667%;flex:0 0 16.6666666667%;max-width:16.6666666667%}.col-24{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}@media(min-width:768px){.col-sm-2{-webkit-box-flex:0;-ms-flex:0 0 8.3333333333%;flex:0 0 8.3333333333%;max-width:8.3333333333%}.col-sm-3{-webkit-box-flex:0;-ms-flex:0 0 12.5%;flex:0 0 12.5%;max-width:12.5%}.col-sm-8{-webkit-box-flex:0;-ms-flex:0 0 33.3333333333%;flex:0 0 33.3333333333%;max-width:33.3333333333%}.col-sm-10{-webkit-box-flex:0;-ms-flex:0 0 41.6666666667%;flex:0 0 41.6666666667%;max-width:41.6666666667%}.col-sm-12{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-sm-14{-webkit-box-flex:0;-ms-flex:0 0 58.3333333333%;flex:0 0 58.3333333333%;max-width:58.3333333333%}.col-sm-24{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.offset-sm-0{margin-left:0}.offset-sm-4{margin-left:16.6666666667%}}@media(min-width:992px){.col-md-8{-webkit-box-flex:0;-ms-flex:0 0 33.3333333333%;flex:0 0 33.3333333333%;max-width:33.3333333333%}.col-md-24{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}}.icon{fill:currentColor;display:inline-block;vertical-align:-.1625em;width:1em;height:1em}@-webkit-keyframes icon-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes icon-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@-webkit-keyframes icon-pulse{0%{opacity:1}50%{opacity:0}to{opacity:1}}@keyframes icon-pulse{0%{opacity:1}50%{opacity:0}to{opacity:1}}.font-size-15{font-size:15px}.font-size-18{font-size:18px}.font-size-19{font-size:19px}.font-size-24{font-size:24px}.font-size-28{font-size:28px}.font-size-50{font-size:50px}.font-weight-400{font-weight:400}.font-weight-600{font-weight:600}.font-weight-800{font-weight:800}.text-left{text-align:left!important}.text-center{text-align:center!important}.theme-blue .text-text-2{color:#d1d1d1!important}.theme-blue .cursor-pointer.text-text-2:focus,.theme-blue .cursor-pointer.text-text-2:hover,.theme-blue a.text-text-2:focus,.theme-blue a.text-text-2:hover{color:#b8b8b8!important}.theme-blue .text-text-2-hover-primary-1{color:#d1d1d1!important}.cursor-pointer.text-text-2-hover-primary-1,a.text-text-2-hover-primary-1{-webkit-transition:color .05s ease-in-out;transition:color .05s ease-in-out}.theme-blue .cursor-pointer.text-text-2-hover-primary-1:focus,.theme-blue .cursor-pointer.text-text-2-hover-primary-1:hover,.theme-blue a.text-text-2-hover-primary-1:focus,.theme-blue a.text-text-2-hover-primary-1:hover{color:#72a24d!important}.theme-blue .text-text-3{color:#586f91!important}.theme-blue .cursor-pointer.text-text-3:focus,.theme-blue .cursor-pointer.text-text-3:hover,.theme-blue a.text-text-3:focus,.theme-blue a.text-text-3:hover{color:#455771!important}.theme-blue .text-text-3-hover-primary-1{color:#586f91!important}.cursor-pointer.text-text-3-hover-primary-1,a.text-text-3-hover-primary-1{-webkit-transition:color .05s ease-in-out;transition:color .05s ease-in-out}.theme-blue .cursor-pointer.text-text-3-hover-primary-1:focus,.theme-blue .cursor-pointer.text-text-3-hover-primary-1:hover,.theme-blue a.text-text-3-hover-primary-1:focus,.theme-blue a.text-text-3-hover-primary-1:hover{color:#72a24d!important}.theme-blue .text-text-3-hover-primary-2{color:#586f91!important}.cursor-pointer.text-text-3-hover-primary-2,a.text-text-3-hover-primary-2{-webkit-transition:color .05s ease-in-out;transition:color .05s ease-in-out}.theme-blue .cursor-pointer.text-text-3-hover-primary-2:focus,.theme-blue .cursor-pointer.text-text-3-hover-primary-2:hover,.theme-blue a.text-text-3-hover-primary-2:focus,.theme-blue a.text-text-3-hover-primary-2:hover{color:#58a51b!important}.theme-blue .text-primary-1{color:#72a24d!important}.theme-blue .cursor-pointer.text-primary-1:focus,.theme-blue .cursor-pointer.text-primary-1:hover,.theme-blue a.text-primary-1:focus,.theme-blue a.text-primary-1:hover{color:#5a7f3d!important}.theme-blue .bg-bg-1{background-color:#213040!important}.theme-blue .bg-bg-2{background-color:#18222d!important}.text-wrap-normal{white-space:normal}.text-nodecor,.text-nodecor:focus,.text-nodecor:hover{text-decoration:none}body,html{margin:0;padding:0;width:100%;height:100%;overflow:hidden;position:relative}*,body,button,html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*{-webkit-box-sizing:border-box;box-sizing:border-box}:focus{outline:none}body,button,html{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue}.js-editor{width:100%;height:100%;overflow:auto;position:fixed;font-size:14px}.theme-blue .js-editor{color:#d1d1d1;background-color:#213040}.js-editor .browser{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;border-radius:5px;-webkit-box-shadow:rgba(0,0,0,.15) 0 2px 8px,rgba(0,0,0,.15) 0 1px 3px;box-shadow:0 2px 8px rgba(0,0,0,.15),0 1px 3px rgba(0,0,0,.15);position:relative;margin:0;overflow:hidden}.js-editor .browser__head{display:block;width:100%}.js-editor .browser__content{width:100%;margin:0;padding:0}.js-editor .button.button--primary{display:inline-block;line-height:1;white-space:nowrap;cursor:pointer;background:transparent;border:none;-webkit-appearance:none;text-align:center;-webkit-box-sizing:border-box;box-sizing:border-box;outline:none;margin:0;font-weight:700;text-transform:uppercase;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;padding:12px 45px;border-radius:4px;font-size:18px;color:#fff;text-decoration:none;-webkit-transition:background-color .05s ease-in-out;transition:background-color .05s ease-in-out}.theme-blue .js-editor .button.button--primary{background-color:#58a51b}.js-editor .button.button--primary:focus,.js-editor .button.button--primary:hover{color:#fff}.theme-blue .js-editor .button.button--primary:focus,.theme-blue .js-editor .button.button--primary:hover{background-color:#72a24d}.js-editor .button.button--primary:active{outline:none}.js-editor .button.button--primary::-moz-focus-inner{border:0}</style></head>
+
+  <body class="theme-blue">
+    <div class="js-editor">
+      <!--  Header  -->
+      <div style="height: 60px" class="d-flex align-items-center bg-bg-1">
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <img src="/lstatic/img/logo.png" height="30px" alt="PlayCode Logo Icon" />
+              <img src="/lstatic/img/logo-text.png" alt="PlayCode Logo" class="ml-2" height="15px" />
+            </div>
+
+            <div>
+              <a href="/" class="mr-3 cursor-pointer text-text-2-hover-primary-1 text-nodecor">Features</a>
+              <a href="/pricing" class="mr-3 cursor-pointer text-text-2-hover-primary-1 text-nodecor">Pricing</a>
+              <a href="/sign-in" class="cursor-pointer text-text-2-hover-primary-1 text-nodecor">Sign Up</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  Intro  -->
+      <div class="py-10 bg-bg-2">
+        <div class="container pt-0">
+          <div class="row align-items-center">
+            <div class="col-sm-24 col-md-24 offset-0">
+              <h1 class="text-text-2 font-size-50 text-center">Typescript Playground</h1>
+            </div>
+
+            <div class="col-sm-24 text-center d-flex justify-content-center">
+              <div>
+                <div class="font-size-19 max-w-450">
+                  Write and run your typescript code online, see result in live view or in editor console. Share your
+                  typescript.
+                </div>
+
+                <a class="mt-7 button button--primary" href="/typescript/">Open Playground</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Intro Video -->
+        <div>
+          <div class="container pt-12">
+            <div class="d-flex justify-content-center">
+              <div class="browser">
+                <img src="/lstatic/img/safari-top.png" class="browser__head" alt="" />
+
+                <video autoplay loop muted playsinline class="browser__content">
+                  <source src="/lstatic/video/intro.webm" type="video/webm" />
+                  <source src="/lstatic/video/intro.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Description -->
+      <div class="pb-12">
+        <div class="container pt-12">
+          <div class="row">
+            <div class="col-md-8 mt-8 mt-md-6 text-center px-2">
+              <div class="font-size-18 font-weight-600">Create</div>
+              <div class="mt-2 font-size-15">
+                Apps, demos or awesome things with online typescript editor, just open and write code.
+              </div>
+            </div>
+
+            <div class="col-md-8 mt-8 mt-md-6 text-center px-2">
+              <div class="font-size-18 font-weight-600">Share</div>
+              <div class="mt-2 font-size-15">Your typescript code just by copy browser url.</div>
+            </div>
+
+            <div class="col-md-8 mt-8 mt-md-6 text-center px-2">
+              <div class="font-size-18 font-weight-600">Languages</div>
+              <div class="mt-2 font-size-15">
+                PlayCode fast compile typescript code from Babel in realtime. In additional editor can compile
+                typescript from preprocessors: typescript, coffeescript, jsx, tsx.
+              </div>
+            </div>
+
+            <div class="col-md-8 mt-8 mt-md-6 text-center px-2">
+              <div class="font-size-18 font-weight-600">Flexible</div>
+              <div class="mt-2 font-size-15">
+                Online editor have full support to create whole apps: HTML, CSS, Versions and App Hosting with Vanilla
+                Names.
+              </div>
+            </div>
+
+            <div class="col-md-8 mt-8 mt-md-6 text-center px-2">
+              <div class="font-size-18 font-weight-600">Console</div>
+              <div class="mt-2 font-size-15">Use console to debug typescript code in playcode.</div>
+            </div>
+
+            <div class="col-md-8 mt-8 mt-md-6 text-center px-2">
+              <div class="font-size-18 font-weight-600">Dependencies</div>
+              <div class="mt-2 font-size-15">
+                Use typescript and css libs like vue.js, react, jquery or font-awesome. Or include to html from
+                jsdelivr.com, jspm.io.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  <div>-->
+      <!--    <div class="container pt-12">-->
+      <!--      <div class="d-flex justify-content-center">-->
+      <!--        <iframe src="http://playcode.io" frameborder="0" class="max-w-700 min-w-0"></iframe>-->
+      <!--      </div>-->
+      <!--    </div>-->
+      <!--  </div>-->
+
+      <!--  <a href="/page.html">Link to my other page</a>-->
+      <!--    <img src="//lstatic/tail.png" alt="code"/>-->
+    </div>
+  <script type="text/javascript" src="/lstatic/main.js"></script></body>
+</html>
